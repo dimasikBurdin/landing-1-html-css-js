@@ -251,3 +251,127 @@ body {
     content: '4.';
     color: #989EB1;
 }
+
+.body-container-third {
+    display: flex;
+    flex-direction: column;
+    background: #F3F6F9;
+    border-radius: 50px;
+    padding: 40px;
+    gap: 50px;
+}
+
+.body-container-third-header {
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.body-container-third-header-title {
+    flex: 1;
+    font-size: 94px;
+    color: #142251;
+
+}
+
+.body-container-third-header-other-part {
+    flex: 1;
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-container-third-header-other-text {
+    font-size: 30px;
+    color: #989EB1;
+    max-width: 340px;
+}
+
+.body-container-third-header-other-navigate-buttons-container {
+    width: 170px;
+    height: 85px;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.body-container-third-header-other-navigate-button {
+    border: none;
+    width: 35px;
+    height: 35px;
+    background: url('image/thirdBodyNavigateButtonIcon.svg') 50% 50% no-repeat;
+    background-size: 100% 100%;
+}
+
+.body-container-third-header-other-navigate-button.left {
+    transform: rotate(180deg);
+}
+
+.body-container-third-cards {
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.body-container-third-card {
+    min-width: 425px;
+    min-height: 520px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.body-container-third-card-icon {
+    width: 100%;
+    height: 225px;    
+}
+
+.body-container-third-card-title {
+    font-size: 34px;
+    color: #142251;
+    max-width: 250px;
+}
+
+.body-container-third-card-description-list {
+    margin: 0;
+    font-size: 17px;
+    color: #142251;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.body-container-third-submit-container {
+    display: flex;
+    align-self: center;
+    width: 415px;
+    height: 90px;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #142251;
+    border-radius: 12px;
+}
+
+.body-container-third-submit-button {
+    border: none;
+
+    font-size: 24px;
+    color: #FFFFFF;
+    background-color: transparent;
+    
+}
+
+.body-container-third-submit-icon {
+    width: 40px;
+    height: 40px;
+    background: url('image/submitWhitePlusIcon.svg') 50% 50% no-repeat;
+    background-size: 100%;
+}
