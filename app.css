@@ -1,6 +1,8 @@
-body {
+body
+ {
     font-family: roboto;
-    width: 100%;
+    /* width: 100%; */
+    
 }
 
 .header-container {
@@ -39,6 +41,7 @@ body {
 }
 
 .body-container {
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     padding: 20px 40px;
@@ -473,19 +476,65 @@ body {
 
 .body-container-fifth {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    padding: 70px 30px 40px 40px;
+    /* width: 100%; */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #F2F3F8;  
+    gap: 45px;
 }
 
 .body-container-fifth-title {
-    flex: 1;
     font-size: 84px;
     color: #142251;
+    flex: 1;
+    /* max-width: 370px; */
 }
 
 .body-container-fifth-example-cards {
-    flex: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+
+.body-container-fifth-example-cards-first-row,
+.body-container-fifth-example-cards-second-row {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.body-container-fifth-example-card {
+    /* width: 325px; */
+    height: 325px;
+    min-width: 100px;
+    flex-shrink: 2;
+    flex-basis: 325px;
+    
+    padding: 20px 20px 45px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.body-container-fifth-example-card-icon {
+    width: 130px;
+    height: 130px;
+}
+
+.body-container-fifth-example-card-text {
+    font-size: 34px;
+    color: #989EB1;
+    align-self: flex-end;
 }
 
 .body-container-fifth-description {
     flex: 2;
+    font-size: 34px;
+    color: #989EB1;
+    /* max-width: 200px; */
+    width: 100%;
 }
