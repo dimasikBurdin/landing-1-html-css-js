@@ -1,5 +1,6 @@
 body {
     font-family: roboto;
+    width: 100%;
 }
 
 .header-container {
@@ -100,7 +101,7 @@ body {
 }
 
 .body-container-first-right-image {
-    width: 770px;
+    width: 100%;
     height: 670px;
 }
 
@@ -255,6 +256,7 @@ body {
 
 .body-container-third {
     display: flex;
+    width: 95%;
     flex-direction: column;
     background: #F3F6F9;
     border-radius: 50px;
@@ -467,4 +469,23 @@ body {
 
 .body-container-fourth-right-side-image.second {
     align-self: center;
+}
+
+.body-container-fifth {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.body-container-fifth-title {
+    flex: 1;
+    font-size: 84px;
+    color: #142251;
+}
+
+.body-container-fifth-example-cards {
+    flex: 4;
+}
+
+.body-container-fifth-description {
+    flex: 2;
 }
