@@ -538,3 +538,46 @@ body
     /* max-width: 200px; */
     width: 100%;
 }
+
+.body-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.body-form-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-form-header-title {
+    font-size: 84px;
+    color: #142251;
+}
+
+.body-form-inputs-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.body-form-input-container {
+    display: flex;
+    flex-basis: 500px;
+    
+}
+
+.body-form-input-container-label {
+    font-size: 34px;
+    color: #142251;
+    min-width: 190px;
+}
+
+.body-form-input-container-input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #E5E5E5;
+    font-size: 34px;
+    color: #213887;
+}
