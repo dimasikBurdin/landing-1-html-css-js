@@ -556,6 +556,17 @@ body
     color: #142251;
 }
 
+.body-form-header-up-button {
+    width: 55px;
+    height: 55px;
+    border-radius: 100px;
+    border: none;
+    background: url('image/thirdBodyNavigateButtonIcon.svg') 50% 50% no-repeat;
+    background-size: 70% 70%;
+    background-color: #F2F3F8;;
+    transform: rotate(-90deg);
+}
+
 .body-form-inputs-container {
     display: flex;
     flex-wrap: wrap;
@@ -565,7 +576,7 @@ body
 .body-form-input-container {
     display: flex;
     flex-basis: 500px;
-    
+    gap: 20px;
 }
 
 .body-form-input-container-label {
@@ -579,5 +590,37 @@ body
     outline: none;
     border-bottom: 1px solid #E5E5E5;
     font-size: 34px;
+    color: #213887;
+}
+
+.footer-container {
+    display: flex;
+    padding: 50px;
+}
+
+.footer-contacts {
+    display: flex;
+    border-radius: 100px;
+    border: 1px solid #E5E5E5;
+    padding: 30px 25px;    
+    gap: 20px;
+}
+
+.footer-contact-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-contact-button {
+    font-size: 30px;
+    font-weight: 700;
+    color: #142251;
+    border: none;
+    background-color: transparent;
+}
+
+.footer-contact-email {
+    font-size: 26px;
+    font-weight: 700;
     color: #213887;
 }
