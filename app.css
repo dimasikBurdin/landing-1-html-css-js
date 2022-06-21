@@ -623,6 +623,7 @@ body
     display: flex;
     flex-basis: 500px;
     gap: 20px;
+    align-items: center;
 }
 
 .body-form-input-container-label {
@@ -637,6 +638,30 @@ body
     border-bottom: 1px solid #E5E5E5;
     font-size: 34px;
     color: #213887;
+}
+
+.body-form-submit-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2138870F;
+    border-radius: 12px;
+    padding: 25px 32px;
+    flex-basis: 360px;
+}
+
+.body-form-submit-button {
+    border: none;
+    font-size: 20px;
+    color: #213887;    
+    font-weight: 600;
+}
+
+.body-form-submit-icon {
+    width: 35px;
+    height: 35px;
+    background: url('image/plusSubmitButtonIcon.svg') 50% 50% no-repeat;
+    background-size: 100% 100%;
 }
 
 .footer-container {
