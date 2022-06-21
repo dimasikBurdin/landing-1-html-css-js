@@ -526,7 +526,7 @@ body
     display: flex;
     flex-direction: column;
     gap: 10px;
-    flex: 2;
+    flex: 3;
 }
 
 .body-container-fifth-example-cards-first-row,
@@ -534,27 +534,41 @@ body
     display: flex;
     width: 100%;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .body-container-fifth-example-card {
+    position: relative;
     /* width: 325px; */
-    height: 325px;
-    min-width: 100px;
+    height: 305px;
     flex-shrink: 2;
     flex-basis: 325px;
+    flex-grow: 10;
+    
+    
+    display: flex;
+    justify-content: flex-start;
+    /* flex-direction: row-reverse; */
     
     padding: 20px 20px 45px;
-    display: flex;
-    justify-content: space-between;
+
     background-color: #FFFFFF;
     border-radius: 45px;
-    display: flex;
-    flex-direction: row-reverse;
+}
+
+.body-container-fifth-example-card-icon-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 110px;
+    max-height: 110px;
+    min-width: 50px;
+    min-height: 50px;
 }
 
 .body-container-fifth-example-card-icon {
-    width: 130px;
-    height: 130px;
+    width: 100%;
+    height: 100%;
 }
 
 .body-container-fifth-example-card-text {
@@ -567,7 +581,7 @@ body
     flex: 2;
     font-size: 34px;
     color: #989EB1;
-    /* max-width: 200px; */
+    max-width: 400px;
     width: 100%;
 }
 
