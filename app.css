@@ -84,6 +84,7 @@ body
     flex-direction: column;
     font-size: 80px;
     color: #142251;
+    max-width: 800px;
     
 }
 
